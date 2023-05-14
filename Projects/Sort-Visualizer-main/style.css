@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+html {
+
+    background-color: #fff;
+    font-family: Poppins , sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+}
+body{
+
+    height: 100%;
+   
+}
+
+header
+{
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://images.unsplash.com/photo-1658241817660-b0c1ad84313d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.btn {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+
+.generate {
+    height: 70%;
+    width: 30%;
+    font-size: large;
+    border-radius: 50px;
+}
+.generate:link,
+.generate:visited{
+    border: 1px solid #fff;
+    color: #fff;;
+    margin-left: auto;
+}
+
+.generate:hover,
+.generate:active {
+
+   background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.generate:hover,
+.generate:active{
+    border: 1px solid black;
+    color: #fff;
+}
+
+.selection-sort {
+    height: 70%;
+    width: 30%;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.selection-sort:link,
+.selection-sort:visited{
+    border: 1px solid #fff;
+    color: #fff;;
+    margin-left: auto;
+}
+
+.selection-sort:hover,
+.selection-sort:active {
+
+   background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.selection-sort:hover,
+.selection-sort:active{
+    border: 1px solid black;
+    color: #fff;
+}
+
+.bubble-sort{
+    height: 70%;
+    width: 30%;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.bubble-sort:link,
+.bubble-sort:visited{
+    border: 1px solid #fff;
+    color: #fff;;
+    margin-left: auto;
+}
+
+.bubble-sort:hover,
+.bubble-sort:active {
+
+   background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.bubble-sort:hover,
+.bubble-sort:active{
+    border: 1px solid black;
+    color: #fff;
+}
+
+.merge-sort{
+    height: 70%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+.quick-sort
+{
+    height: 70%;
+    width: 30%;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.quick-sort:link,
+.quick-sort:visited{
+    border: 1px solid #fff;
+    color: #fff;;
+    margin-left: auto;
+}
+
+.quick-sort:hover,
+.quick-sort:active {
+
+   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.quick-sort:hover,
+.quick-sort:active{
+    border: 1px solid black;
+    color: #fff;
+}
+
+.array-container {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color:black blue;
+    overflow: scroll;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.array-container div {
+    background-color:rgb(119, 189, 226);
+    min-height: 10%;
+    width: 2%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 1px;
+    font-size: small;
+    top: 5%;
+    bottom: 0%;
+    border-width: 1px;
+    border-color: black;
+    border: solid;
+
+}
+
+.array-container .activeclass{
+    background-color: red;
+    
+}
+.array-container .activeclass2{
+    background-color: green;
+}
+.array-container .activeclass3{
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
